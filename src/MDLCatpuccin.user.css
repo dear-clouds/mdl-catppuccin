@@ -61,6 +61,14 @@
             .navbar-brand img {
                 filter: brightness(60%);
             }
+            #calendar-nav .menu-item.exact-active, #calendar-nav .quarter:hover, #calendar-nav .quarter.exact-active, #calendar-nav .menu-item {
+                border-bottom: 5px solid rgb($base);
+                color: rgb($text);
+            }
+            #calendar-nav .menu-item:hover {
+                color: rgb($text);
+            }
+            
         }
         
     }
@@ -394,10 +402,10 @@
     }
     #calendar-nav .menu-item.exact-active, #calendar-nav .quarter:hover, #calendar-nav .quarter.exact-active, #calendar-nav .menu-item {
         border-bottom: 5px solid rgb($base);
-        color: rgb($text);
+        color: rgb($crust);
     }
     #calendar-nav .menu-item:hover {
-        color: rgb($text);
+        color: rgb($crust);
     }
     .box-user-profile .btn.btn-default {
         color: rgb($base);
