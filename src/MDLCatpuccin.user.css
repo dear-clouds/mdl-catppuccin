@@ -1,0 +1,648 @@
+/* ==UserStyle==
+@name               MDL - Catpuccin
+@namespace          https://dear-clouds.carrd.co
+@version            1.0.0
+@description        Soothing pastel theme for MyDramaList
+@author             Mio.
+@updateURL          https://github.com/catppuccin/mydramalist/raw/main/src/MDLCatpuccin.user.css
+@homepageURL        https://dear-clouds.carrd.co
+
+@preprocessor stylus
+
+@var select theme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha*", "Mocha-Old"]
+@var select accent-color "Accent" ["Rosewater*", "Flamingo", "Pink", "Mauve", "Red", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
+@var checkbox modernized "Modernized" 1
+
+==/UserStyle== */
+@-moz-document domain("mydramalist.com") {
+        
+    if modernized {
+        
+        @import "https://rawcdn.githack.com/dear-clouds/userstyles/02d91afe20440af6f368cf5c398fcd9163744001/mydramalist/MDLModernized.css";
+        
+    }
+    
+    /* -------------------------------------------------------------------------- */
+    /*                                  FLAVOURS                                  */
+    /* -------------------------------------------------------------------------- */
+    
+    if (theme=="Latte") {
+        
+        $type = light
+        
+        $rosewater =     222, 149, 132
+        $flamingo =      221, 120, 120
+        $pink =          236, 131, 208
+        $mauve =         136, 57, 239
+        $red =           210, 15, 57
+        $maroon =        230, 69, 83
+        $peach =         254, 100, 11
+        $yellow =        228, 147, 32
+        $green =         64, 160, 43
+        $teal =          23, 146, 153
+        $blue =          42, 110, 245
+        $sapphire =      32, 159, 181
+        $sky =           4, 165, 229
+        $lavender =      114, 135, 253
+        $text =          76, 79, 105
+        $subtext1 =      92, 95, 119
+        $subtext0 =      108, 111, 133
+        $overlay2 =      124, 127, 147
+        $overlay1 =      140, 143, 161
+        $overlay0 =      156, 160, 176
+        $surface2 =      172, 176, 190
+        $surface1 =      188, 192, 204
+        $surface0 =      204, 208, 218
+        $base =          239, 241, 245
+        $mantle =        230, 233, 239
+        $crust =         220, 224, 232
+        
+        :root {
+            .navbar-brand img {
+                filter: brightness(60%);
+            }
+        }
+        
+    }
+    
+    else if (theme=="Frappe") {
+        
+        $type = dark
+        
+        $rosewater =     242, 213, 207
+        $flamingo =      238, 190, 190
+        $pink =          244, 184, 228
+        $mauve =         202, 158, 230
+        $red =           231, 130, 132
+        $maroon =        234, 153, 156
+        $peach =         239, 159, 118
+        $yellow =        229, 200, 144
+        $green =         166, 209, 137
+        $teal =          129, 200, 190
+        $blue =          140, 170, 238
+        $sapphire =      133, 193, 220
+        $sky =           153, 209, 219
+        $lavender =      186, 187, 241
+        $text =          198, 206, 239
+        $subtext1 =      181, 189, 220
+        $subtext0 =      165, 172, 201
+        $overlay2 =      148, 155, 183
+        $overlay1 =      131, 138, 164
+        $overlay0 =      115, 120, 145
+        $surface2 =      98, 103, 126
+        $surface1 =      81, 86, 108
+        $surface0 =      65, 69, 89
+        $base =          48, 52, 70
+        $mantle =        41, 44, 60
+        $crust =         35, 38, 52
+        
+    }
+    
+    else if (theme=="Macchiato") {
+        
+        $type = dark
+        
+        $rosewater =     244, 219, 214
+        $flamingo =      240, 198, 198
+        $pink =          245, 189, 230
+        $mauve =         198, 160, 246
+        $red =           237, 135, 150
+        $maroon =        238, 153, 160
+        $peach =         245, 169, 127
+        $yellow =        238, 212, 159
+        $green =         166, 218, 149
+        $teal =          139, 213, 202
+        $blue =          138, 173, 244
+        $sapphire =      125, 196, 228
+        $sky =           145, 215, 227
+        $lavender =      183, 189, 248
+        $text =          197, 207, 245
+        $subtext1 =      179, 188, 224
+        $subtext0 =      161, 170, 203
+        $overlay2 =      143, 151, 183
+        $overlay1 =      124, 131, 162
+        $overlay0 =      108, 114, 141
+        $surface2 =      90, 95, 120
+        $surface1 =      72, 76, 100
+        $surface0 =      54, 58, 79
+        $base =          36, 39, 58
+        $mantle =        30, 32, 48
+        $crust =         24, 25, 38
+        
+    }
+    
+    else if (theme=="Mocha") {
+        
+        $type = dark
+        
+        $rosewater =     245, 224, 220
+        $flamingo =      242, 205, 205
+        $pink =          245, 194, 231
+        $mauve =         203, 166, 247
+        $red =           243, 139, 168
+        $maroon =        235, 160, 172
+        $peach =         250, 179, 135
+        $yellow =        249, 226, 175
+        $green =         166, 227, 161
+        $teal =          148, 226, 213
+        $blue =          135, 176, 249
+        $sapphire =      116, 199, 236
+        $sky =           137, 220, 235
+        $lavender =      180, 190, 254
+        $text =          198, 208, 245
+        $subtext1 =      179, 188, 223
+        $subtext0 =      161, 168, 201
+        $overlay2 =      142, 149, 179
+        $overlay1 =      123, 129, 157
+        $overlay0 =      105, 109, 134
+        $surface2 =      86, 89, 112
+        $surface1 =      67, 70, 90
+        $surface0 =      49, 50, 68
+        $base =          30, 30, 46
+        $mantle =        24, 24, 37
+        $crust =         17, 17, 27
+        
+    }
+    
+    else if (theme=="Mocha-Old") {
+        
+        $type = dark
+        
+        $rosewater =     245, 224, 220
+        $flamingo =      242, 205, 205
+        $pink =          245, 194, 231
+        $mauve =         221, 182, 242
+        $red =           242, 143, 173
+        $maroon =        232, 161, 174
+        $peach =         248, 189, 150
+        $yellow =        250, 227, 176
+        $green =         171, 233, 179
+        $teal =          181, 232, 224
+        $blue =          150, 205, 251
+        $sapphire =      116, 199, 236
+        $sky =           137, 220, 235
+        $lavender =      201, 203, 255
+        $text =          217, 224, 238
+        $subtext1 =      195, 186, 198
+        $subtext0 =      152, 139, 162
+        $overlay2 =      110, 108, 126
+        $overlay1 =      87, 82, 104
+        $overlay0 =      108, 112, 134
+        $surface2 =      88, 91, 112
+        $surface1 =      69, 71, 90
+        $surface0 =      48, 45, 65
+        $base =          30, 30, 46
+        $mantle =        26, 24, 38
+        $crust =         22, 19, 32
+        
+    }
+    
+    /* -------------------------------------------------------------------------- */
+    /*                                ACCENT COLORS                               */
+    /* -------------------------------------------------------------------------- */
+    
+    if (accent-color=="Rosewater") {
+        $accent-color = $rosewater;
+    } else if (accent-color=="Flamingo") {
+        $accent-color = $flamingo
+    } else if (accent-color=="Pink") {
+        $accent-color = $pink
+    } else if (accent-color=="Mauve") {
+        $accent-color = $mauve
+    } else if (accent-color=="Red") {
+        $accent-color = $red
+    } else if (accent-color=="Maroon") {
+        $accent-color = $maroon
+    } else if (accent-color=="Peach") {
+        $accent-color = $peach
+    } else if (accent-color=="Yellow") {
+        $accent-color = $yellow
+    } else if (accent-color=="Green") {
+        $accent-color = $green
+    } else if (accent-color=="Teal") {
+        $accent-color = $teal
+    } else if (accent-color=="Blue") {
+        $accent-color = $blue
+    } else if (accent-color=="Sapphire") {
+        $accent-color = $sapphire
+    } else if (accent-color=="Sky") {
+        $accent-color = $sky
+    } else if (accent-color=="Lavender") {
+        $accent-color = $lavender
+    }  else if (accent-color=="Gray") {
+        $accent-color = $subtext0
+    }
+    
+    
+    /* -------------------------------------------------------------------------- */
+    /*                                MDL VARIABLES                               */
+    /* -------------------------------------------------------------------------- */
+    
+    :root {    
+        
+        --mdl-primary: rgb($accent-color);
+        --mdl-primary-text: rgb($accent-color);
+        --mdl-primary-text-2: rgb($subtext0);
+        --mdl-title: rgb($accent-color);
+        --mdl-link: rgb($accent-color);
+        --mdl-nav-header: rgb($crust);
+        --mdl-nav-header-border: 0;
+        --mdl-background: rgb($crust);
+        --mdl-background-2: transparent;
+        /* --mdl-background-lt: hsla(0,0%,100%,0.065); */
+        --mdl-text: rgb($text);
+        --mdl-text-inverted: hsla(0,0%,100%,0.87);
+        --mdl-text-lighter: rgb($subtext0);
+        --mdl-text-muted: rgb($subtext1);
+        --mdl-box-background: rgb($base);
+        --mdl-box-background-2: rgb($mantle);
+        /* --mdl-box-background-3: rgba($crust/21%); */
+        --mdl-box-background-4: rgb($mantle);
+        --mdl-box-border: rgb($crust);
+        --mdl-btn-white: rgb($mantle);
+        --mdl-btn-white-border: rgb($mantle);
+        /* --mdl-btn-hover: #cad9e2; */
+        --mdl-btn-border: 0;
+        --mdl-btn-background: rgb($mantle);
+        --mdl-btn-background-hover: rgb($crust);
+        --mdl-btn-hover-text: rgb($text);
+        --mdl-btn-active: rgb($accent-color);
+        /* --mdl-btn-shadow: rgba(0,0,0,0.2); */
+        --mdl-btn-plain: rgb($base);
+        /* --mdl-btn-plain-border: rgba($accent-color/60%); */
+        --mdl-btn-primary-last-border: 0;
+        --mdl-btn-primary-background: rgb($accent-color);
+        --mdl-btn-primary-plain: rgba($crust, 0.5);
+        --mdl-btn-primary-border: 0;
+        --mdl-btn-primary-disabled: rgba($accent-color, 0.5);
+        /* --mdl-btn-success-background: rgba($green/80%); */
+        /* --mdl-btn-success-plain: rgba($green/30%); */
+        --mdl-btn-success-border: 0;
+        --mdl-btn-danger-background: rgb($flamingo);
+        --mdl-btn-danger-plain: rgb($red);
+        --mdl-btn-danger-border: rgb($flamingo);
+        --mdl-border: rgb($crust);
+        --mdl-border-lighter: rgb($crust);
+        --mdl-threadline: rgba($accent-color, 0.5);
+        --mdl-placeholder: rgb($crust);
+        --mdl-btn-ml-border: rgb($crust);
+        --mdl-btn-ml-text: rgb($text);
+        --mdl-black: rgb($base);
+        --mdl-light: rgb($mantle);
+        --mdl-light-b: rgb($base);
+        --mdl-light-b2: rgb($mantle);
+        --mdl-light-dk: rgb($base);
+        --mdl-spoiler-background: rgb($base);
+        --mdl-box-header-light-b: rgb($text);
+        --mdl-tag-border: 0;
+        --mdl-tag-background: rgb($crust);
+        --mdl-tag-background-2: rgb($crust);
+        --mdl-tag-text: rgb($text);
+        --mdl-tag-text-2: rgb($text);
+        /* --mdl-tag-hover: #606266; */
+        /* --mdl-tag-close: #606266; */
+        --mdl-tag-active-background: rgb($overlay1);
+        --mdl-tag-vip: rgb($teal);
+        --mdl-tag-vip-border: rgb($teal);
+        --mdl-green: rgb($green);
+        /* --mdl-light-green: rgb(239 249 242/5%); */
+        --mdl-red: rgb($red);
+        --mdl-readonly-background: rgb($mantle);
+        --mdl-input-placeholder: rgb($text);
+        --mdl-input-text: rgb($text);
+        --mdl-input-background: rgb($crust);
+        --mdl-input-border: rgb($overlay1);
+        --mdl-input-border-hover: rgb($overlay1);
+        --mdl-spnsr-background: transparent;
+        --mdl-feeds-media-tag: rgb($crust);
+        --mdl-feeds-media-border: rgb($crust);
+        --mdl-feeds-attachment: rgb($crust);
+        --mdl-feeds-spoiler-background: rgb($crust);
+        --mdl-feeds-spoiler-border: rgb($crust);
+        --mdl-feeds-cmts-background: rgb($base);
+        --mdl-review-box-rating: rgb($base);
+        --mdl-dropdown-border: rgb($crust);
+        /* --mdl-dropitem-hover: hsla(0,0%,100%,0.065); */
+        /* --mdl-dropitem-active: rgb(236 245 255/10%); */
+        /* --mdl-dropitem-divider: hsla(210,8%,51%,0.13); */
+        --mdl-cal-btn-border: rgb($overlay1);
+        --mdl-cal-btn-background: rgb($base);
+        --mdl-cal-btn-weekday: rgb($base);
+        --mdl-cal-btn-weekday-color: rgb($text);
+        /* --mdl-gradient-1: rgba(36,37,38,0);
+        --mdl-gradient-2: rgba(36,37,38,0.92); */
+        --mdl-gradient-3: rgb($base);
+        /* --mdl-loading-mask: rgba(36,37,38,0.9); */
+        --mdl-sticky-background: rgb($mantle);
+        --mdl-clist-placeholder: rgb($overlay1);
+        --mdl-item-hover-background: rgb($mantle);
+        --mdl-item-hover-color: rgb($text);
+        --mdl-chart-text-1: rgb($teal);
+        --mdl-chart-text-2: rgb($peach);
+        
+        --tealRaw: $teal;
+        --peachRaw: $peach;
+        
+        --base: rgb($crust);
+        --baseRaw: $base;
+        
+        --text: rgb($text);
+        --textBlack: rgb(30, 30, 46);
+        --accent: rgb($accent-color) !important;
+        --accent-dim: rgba($accent-color, 0.5) !important;
+        
+        --crust: rgb($base);
+        --mantle: rgb($mantle);
+        
+        --overlay: rgb($overlay2);
+        --subtext0: rgb($subtext0);
+        --subtext1: rgb($subtext1);
+        
+        --SoftRed: rgb($red);
+        --SoftPurple: rgb($mauve);
+        --rating: rgb($yellow);
+        
+        --green: rgb($green);
+        --red: rgb($red);
+        --peach: rgb($peach);
+        --sapphire: rgb($sapphire);
+        
+    }
+    
+    /* -------------------------------------------------------------------------- */
+    /*                                CUSTOMIZATION                               */
+    /* -------------------------------------------------------------------------- */
+    
+    /* --------------------------------- Headers -------------------------------- */
+    
+    .primary, .nav-active-primary .nav-link.active, .nav-active-primary .nav > li.active > a {
+        background-color: rgb($accent-color) !important;
+        color: rgb($crust) !important;
+    }
+    .black, #calendar-nav a {
+        color: rgb($text);
+    }
+    #calendar-nav, #episode_calendar .weekday.active {
+        background-color: rgb($accent-color);
+    }
+    #episode_calendar .display-format, .edit-container h5, .mdl-nav > li.active > a, .nav-notifications .list-group-item .block a, .nav-notifications .list-group-item .message a, .notifications-list .list-group-item .block a, .notifications-list .list-group-item .message a {
+        color: rgb($accent-color);
+    }
+    #calendar-nav .menu-icon {
+        color: rgb($text);
+        background-color: rgb($base);
+    }
+    #calendar-nav .menu-item.exact-active, #calendar-nav .quarter:hover, #calendar-nav .quarter.exact-active, #calendar-nav .menu-item {
+        border-bottom: 5px solid rgb($base);
+        color: rgb($text);
+    }
+    #calendar-nav .menu-item:hover {
+        color: rgb($text);
+    }
+    .box-user-profile .btn.btn-default {
+        color: rgb($base);
+        background-color: rgb($accent-color);
+    }
+    
+    
+    
+    /* --------------------------------- Buttons -------------------------------- */
+    
+    .text-primary:hover, a:hover, a:focus, .text-primary:focus {
+        color: rgba($accent-color, 0.7) !important;
+    }
+    .btn-primary, .group-manage-list > .btn, , #episode_calendar .display-options > .el-button--primary, #episode_calendar .display-options > .el-button, .nav-feeds .nav-item.active, .pager > .active > a, .pager > .active > span, .pagination > .active > a, .pagination > .active > span, .el-button--primary, .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-dropdown-menu__item.privacy-item.active {
+        background-color: rgb($accent-color) !important;
+        color: rgb($crust) !important;
+        border: 0 !important;
+    }
+    .btn-primary:hover {
+        background-color: rgba($accent-color, 0.5);
+    }
+    .btn-secondary {
+        background-color: rgb($crust);
+        color: rgb($text);
+    }
+    .btn-secondary:hover, .btn-secondary:focus {
+        background-color: rgb($accent-color);
+        color: rgb($crust);
+    }
+    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover {
+        color: rgb($accent-color);
+    }
+    .btn.white, .btn.primary {
+        border: 0;
+    }
+    .btn-default a:hover, .btn-default:hover {
+        color: rgb($crust) !important;
+    }
+    #episode_calendar .episode-card-large .stats i, .el-pager li.active {
+        color: rgb($accent-color);
+    }
+    .el-button.el-button--default:hover {
+        color: rgb($accent-color);
+    }
+    .box-navbar > ul .nav-item.active {
+        border-bottom: 1px solid rgb($accent-color);
+    }
+    .btn.white:hover a, a.btn.white:hover, .btn.white a:hover, .el-button--text:hover, .el-button--danger.is-plain, .btn-default:hover, .el-message-box__title, .el-input-group__append {
+        color: rgb($text) !important;
+    }
+    .btn.btn-trailer i {
+        color: rgb($teal);
+    }
+    .el-button--success.is-disabled, .el-button--success.is-disabled:hover, .el-button--success:hover {
+        color: rgb($text);
+        background-color: rgb($teal);
+        border-color: rgb($teal);
+    }
+    .el-message-box {
+        background-color: rgb($crust);
+    }
+    
+    /* ------------------------------ Tags & Labels ----------------------------- */
+    
+    .tag-primary {
+        background-color: rgb($accent-color);
+        color: rgb($crust);
+    }
+    .tag-success {
+        background-color: rgb($mauve);
+        color: rgb($crust);
+    }
+    .danger {
+        background-color: rgb($flamingo);
+    }
+    #mdl-lang {
+        background-color: rgb($overlay2);
+        border: 1px solid rgb($overlay1);
+    }
+    #mdl-lang:hover {
+        background-color: rgb($accent-color);
+    }
+    .fs-ranked > span {
+        background-color: rgb($accent-color);
+        color: rgb($crust);
+    }
+    .label {
+        color: rgb($base);
+    }
+    .show-tags .edit-tags {
+        color: rgb($mauve);
+    }
+    .alert-info {
+        background-color: rgba($mauve, 0.4);
+        border-color: rgb($mauve);
+        color: rgb($text);
+    }
+    .alert-warning {
+        background-color: rgba($peach, 0.4);
+        border-color: rgb($peach);
+        color: rgb($text);
+    }
+    .leaderboards .fs-rank .icon-arrow-up {
+        fill: rgb($green);
+    }
+    .leaderboards .fs-rank .icon-arrow-down {
+        fill: rgb($flamingo);
+    }
+    .articles-nav-pills .nav-pills .nav-link.active, .grid-top-airing .nav-pills .nav-link.active {
+        color: rgb($accent-color);
+    }
+    
+    /* ---------------------------- Comments Section ---------------------------- */
+    
+    .btn-like.active .like-cntb, .jbtn-like.active .like-cntb {
+        color: rgb($flamingo);
+    }
+    .el-textarea__inner::placeholder {
+        color: rgb($subtext0);
+    }
+    .post-message .btn-spoiler {
+        background-color: rgb($crust);
+        color: rgb($accent-color) !important;
+    }
+    .post-message a {
+        color: rgba($accent-color,0.7);
+    }
+    .post-message .spoiler {
+        border: 1px solid rgb($accent-color);
+    }
+    .post-list .threadline {
+        border-color: var(--mdl-threadline);
+    }
+    .el-form-item.is-error .el-textarea__inner:focus {
+        border-color: rgb($flamingo);
+    }
+    .el-textarea__inner:hover, .el-range-editor.is-active:hover {
+        border-color: rgb($overlay2)
+    }
+    .el-textarea__inner:focus, .el-input__inner:focus, mdl-manage-modal .watch-points .el-button.selected, .el-switch.is-checked .el-switch__core, .el-upload--picture-card:hover,.el-upload:focus, .el-upload:focus .el-upload-dragger, .el-upload-dragger:hover, .el-checkbox.is-bordered.is-checked, .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-checkbox__input.is-focus .el-checkbox__inner, .el-checkbox__inner:hover, .el-checkbox-button.is-checked .el-checkbox-button__inner, .el-checkbox-button.is-focus .el-checkbox-button__inner, .el-button.is-plain:focus,.el-button.is-plain:hover, .el-select .el-input.is-focus .el-input__inner {
+        border-color: rgb($accent-color);
+    }
+    .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a {
+        color: rgb($accent-color);
+    }
+    .article-item .category-name, .carousel-articles .category-name {
+        color: rgb($mauve);
+    }
+    .thread.is--announcement .thread--discussion a.text-primary, .thread.is--sticky .thread--discussion a.text-primary {
+        background-color: rgb($accent-color);
+        color: rgb($base);
+    }
+    .thread.is--sticky .thread--discussion a:hover {
+        color: rgb($text) !important;
+    }
+    .mdl-verified {
+        color: rgb($overlay2);
+    }
+    .mdl-elite, .mdl-star {
+        color: rgb($mauve);
+    }
+    .post-list .post.highlight > .post-content {
+        background-color: rgb($crust);
+    }
+    
+    /* ---------------------------- Rating & Reviews ---------------------------- */
+    
+    .col-film-rating .deep-orange {
+        background: linear-gradient(rgb($yellow), rgb($peach));
+        color: rgb($crust);
+        font-weight: 900;
+    }
+    .rating, .rating .fill, .dstar-rating.rated .dstar-fill, .dstar-rating .dstar-fill, #collection-lists .list-group-item .group-item-rating i.fa, #collection-lists .list-group-item .group-item-rating i.far {
+        color: rgb($yellow);
+    }
+    .review .rating-overall, .box-tool .text-info, .review .review-body .read-more > a, #reviews-filter .filter-dropdown-link, .el-radio, .grid-reviews .review-score {
+        color: rgb($accent-color);
+    }
+    .review-tag.completed {
+        color: rgb($green);
+        border-color: rgb($green);
+    }
+    .review-tag.ongoing {
+        color: rgb($teal);
+        border-color: rgb($teal);
+    }
+    .review-tag.dropped {
+        color: rgb($flamingo);
+        border-color: rgb($flamingo);
+    }
+    .review .review-body .read-more {
+        background-image: linear-gradient(rgba($crust, 0), rgba($crust, 0.92), rgb($crust))
+    }
+    .review .review-spoiler {
+        color: rgb($flamingo);
+    }
+    #games-list .game-chart-bar, .game-list .game-chart-bar {
+        background-color: rgba($teal,0.25098039215686274);
+    }
+    #games-list .game-chart-item.chart-1 .game-chart-bar, .game-list .game-chart-item.chart-1 .game-chart-bar {
+        background-color: rgba($peach,0.2);
+    }
+    #game-container .game-type {
+        color: rgb($mauve);
+    }
+    
+    /* ----------------------------- Year in Review ----------------------------- */
+    
+    #year-in-review h3, #year-in-review .dramas-stats i.fa-arrow-right, #year-in-review .movies-stats i.fa-arrow-right, #year-in-review .people-stats i.fa-arrow-right, #year-in-review .watchlist-updates i.fa-arrow-right {
+        color: rgb($accent-color);
+    }
+    
+    #year-in-review .bars-ratings .bar:first-child {
+        background-color: rgba($accent-color,0.3);
+    }
+    #year-in-review .bars-ratings .bar:nth-child(2) {
+        background-color: rgba($accent-color,0.5);
+    }
+    #year-in-review .bars-ratings .bar:nth-child(3) {
+        background-color: rgba($accent-color,0.8);
+    }
+    #year-in-review .bars-ratings .bar:nth-child(4) {
+        background-color: rgb($accent-color);
+    }
+    
+    /* ------------------------------- MyDramaList ------------------------------ */
+    
+    .style-default .list-statistics label>.cnt {
+        background-color: rgb($sapphire);
+        color: rgb($base);
+    }
+    
+    .box-header .primary a {
+        color: rgb($crust) !important;
+    }
+    
+    .text-info {
+        color: rgb($teal);
+    }
+    .el-checkbox__input.is-checked + .el-checkbox__label {
+        color: rgb($accent-color);
+    }
+    .el-checkbox {
+        color: rgb($text);
+    }
+    
+
+}
