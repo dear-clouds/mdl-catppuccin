@@ -55,7 +55,7 @@
 ## Usage
 
 1. Install the [Stylus](https://github.com/openstyles/stylus) extension for your browser
-2. [Click on the theme](https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css) to install it
+2. [Click here](https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css) to install it
 3. Choose your favorite flavour, accent and version with the dropdown options
 4. Change the theme anytime via the Stylus extension!
 
