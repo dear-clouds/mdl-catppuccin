@@ -5,10 +5,16 @@
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
+<!-- <p align="center">
 	<a href="https://github.com/catppuccin/mydramalist/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/mydramalist?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
 	<a href="https://github.com/catppuccin/mydramalist/issues"><img src="https://img.shields.io/github/issues/catppuccin/mydramalist?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
 	<a href="https://github.com/catppuccin/mydramalist/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/mydramalist?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+</p> -->
+
+<p align="center">
+	<a href="https://github.com/dear-clouds/mydramalist/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/mydramalist?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/dear-clouds/mydramalist/issues"><img src="https://img.shields.io/github/issues/catppuccin/mydramalist?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/dear-clouds/mydramalist/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/mydramalist?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
