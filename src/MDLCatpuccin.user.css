@@ -68,6 +68,9 @@
             #calendar-nav .menu-item:hover {
                 color: rgb($text);
             }
+            .black, #calendar-nav a {
+                color: rgb($text);
+            }
             
         }
         
@@ -387,7 +390,7 @@
         background-color: rgb($accent-color) !important;
         color: rgb($crust) !important;
     }
-    .black, #calendar-nav a {
+    .black {
         color: rgb($text);
     }
     #calendar-nav, #episode_calendar .weekday.active {
@@ -404,7 +407,7 @@
         border-bottom: 5px solid rgb($base);
         color: rgb($crust);
     }
-    #calendar-nav .menu-item:hover {
+    #calendar-nav .menu-item:hover, #calendar-nav a {
         color: rgb($crust);
     }
     .box-user-profile .btn.btn-default {
