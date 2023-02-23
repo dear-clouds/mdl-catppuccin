@@ -407,7 +407,7 @@
         border-bottom: 5px solid rgb($base);
         color: rgb($crust);
     }
-    #calendar-nav .menu-item:hover, #calendar-nav a {
+    #calendar-nav .menu-item:hover, #calendar-nav a, #calendar-nav a:hover {
         color: rgb($crust);
     }
     .box-user-profile .btn.btn-default {
