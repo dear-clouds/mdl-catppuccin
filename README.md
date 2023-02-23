@@ -53,10 +53,10 @@
 3. Choose your favorite flavour, accent and version with the dropdown options
 4. Change the theme anytime via the Stylus extension!
 
-## 🙋 FAQ (optional)
+<!-- ## 🙋 FAQ (optional)
 
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+-	Q: **_"Where can I ask for help?"_**\
+	A: You contact me directly on MDL -->
 
 ## 💝 Thanks to
 
