@@ -355,7 +355,7 @@
         --peachRaw: $peach;
         
         --base: rgb($crust);
-        --baseRaw: $base;
+        --crustRaw: $crust;
         
         --text: rgb($text);
         --textBlack: rgb(30, 30, 46);
