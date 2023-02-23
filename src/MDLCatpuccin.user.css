@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.0.0
+@version            1.0.1
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -554,13 +554,13 @@
     .el-textarea__inner:focus, .el-input__inner:focus, mdl-manage-modal .watch-points .el-button.selected, .el-switch.is-checked .el-switch__core, .el-upload--picture-card:hover,.el-upload:focus, .el-upload:focus .el-upload-dragger, .el-upload-dragger:hover, .el-checkbox.is-bordered.is-checked, .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-checkbox__input.is-focus .el-checkbox__inner, .el-checkbox__inner:hover, .el-checkbox-button.is-checked .el-checkbox-button__inner, .el-checkbox-button.is-focus .el-checkbox-button__inner, .el-button.is-plain:focus,.el-button.is-plain:hover, .el-select .el-input.is-focus .el-input__inner {
         border-color: rgb($accent-color);
     }
-    .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a {
+    .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a, .feed-body .feed-status>a {
         color: rgb($accent-color);
     }
     .article-item .category-name, .carousel-articles .category-name {
         color: rgb($mauve);
     }
-    .thread.is--announcement .thread--discussion a.text-primary, .thread.is--sticky .thread--discussion a.text-primary {
+    .thread.is--announcement .thread--discussion a.text-primary, .thread.is--sticky .thread--discussion a.text-primary, .feed-body .progress-bar.info {
         background-color: rgb($accent-color);
         color: rgb($base);
     }
