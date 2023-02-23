@@ -396,7 +396,7 @@
     #calendar-nav, #episode_calendar .weekday.active {
         background-color: rgb($accent-color);
     }
-    #episode_calendar .display-format, .edit-container h5, .mdl-nav > li.active > a, .nav-notifications .list-group-item .block a, .nav-notifications .list-group-item .message a, .notifications-list .list-group-item .block a, .notifications-list .list-group-item .message a {
+    #episode_calendar .display-format, .edit-container h5, .mdl-nav > li.active > a, .nav-notifications .list-group-item .block a, .nav-notifications .list-group-item .message a, .notifications-list .list-group-item .block a, .notifications-list .list-group-item .message a, .feed-spoiler {
         color: rgb($accent-color);
     }
     #calendar-nav .menu-icon {
