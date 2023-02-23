@@ -390,7 +390,7 @@
         background-color: rgb($accent-color) !important;
         color: rgb($crust) !important;
     }
-    .black {
+    .black, a.thread--category-tag {
         color: rgb($text);
     }
     #calendar-nav, #episode_calendar .weekday.active {
