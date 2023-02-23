@@ -436,7 +436,7 @@
     .btn-default a:hover, .btn-default:hover {
         color: rgb($crust) !important;
     }
-    #episode_calendar .episode-card-large .stats i, .el-pager li.active, .mdl-theme.fr-popup .fr-action-buttons button.fr-command {
+    #episode_calendar .episode-card-large .stats i, .el-pager li.active, .mdl-theme.fr-popup .fr-action-buttons button.fr-command, .el-dropdown-menu__item.privacy-item:hover {
         color: rgb($accent-color);
     }
     .el-button.el-button--default:hover {
