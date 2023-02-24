@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.0.1
+@version            1.0.2
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -396,7 +396,7 @@
     #calendar-nav, #episode_calendar .weekday.active {
         background-color: rgb($accent-color);
     }
-    #episode_calendar .display-format, .edit-container h5, .mdl-nav > li.active > a, .nav-notifications .list-group-item .block a, .nav-notifications .list-group-item .message a, .notifications-list .list-group-item .block a, .notifications-list .list-group-item .message a, .feed-spoiler {
+    #episode_calendar .display-format, .edit-container h5, .mdl-nav > li.active > a, .nav-notifications .list-group-item .block a, .nav-notifications .list-group-item .message a, .notifications-list .list-group-item .block a, .notifications-list .list-group-item .message a, .feed-spoiler, #upcoming-episode .calendar {
         color: rgb($accent-color);
     }
     #calendar-nav .menu-icon {
@@ -438,7 +438,7 @@
         background-color: rgb($accent-color);
         color: rgb($crust);
     }
-    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover {
+    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active {
         color: rgb($accent-color);
     }
     .btn.white, .btn.primary {
