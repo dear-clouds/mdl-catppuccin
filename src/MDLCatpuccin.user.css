@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.0.3
+@version            1.0.4
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -438,7 +438,7 @@
         background-color: rgb($accent-color);
         color: rgb($crust);
     }
-    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active {
+    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a:hover {
         color: rgb($accent-color);
     }
     .btn.white, .btn.primary {
