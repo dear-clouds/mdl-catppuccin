@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.0.4
+@version            1.0.5
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -386,7 +386,7 @@
     
     /* --------------------------------- Headers -------------------------------- */
     
-    .primary, .nav-active-primary .nav-link.active, .nav-active-primary .nav > li.active > a {
+    .primary, .nav-active-primary .nav-link.active, .nav-active-primary .nav > li.active > a, #dramalist .table thead th, .style-default .table thead th {
         background-color: rgb($accent-color) !important;
         color: rgb($crust) !important;
     }
@@ -438,7 +438,7 @@
         background-color: rgb($accent-color);
         color: rgb($crust);
     }
-    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a:hover {
+    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a, a.m-r i:hover {
         color: rgb($accent-color);
     }
     .btn.white, .btn.primary {
@@ -656,6 +656,10 @@
     }
     .el-checkbox {
         color: rgb($text);
+    }
+    #dramalist .table tbody tr td .airing, .style-default .table tbody tr td .airing {
+        background-color: rgb($teal);
+        color: rgb($base);
     }
     
 
