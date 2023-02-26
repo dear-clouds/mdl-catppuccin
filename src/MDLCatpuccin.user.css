@@ -554,7 +554,7 @@
     .el-textarea__inner:focus, .el-input__inner:focus, mdl-manage-modal .watch-points .el-button.selected, .el-switch.is-checked .el-switch__core, .el-upload--picture-card:hover,.el-upload:focus, .el-upload:focus .el-upload-dragger, .el-upload-dragger:hover, .el-checkbox.is-bordered.is-checked, .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-checkbox__input.is-focus .el-checkbox__inner, .el-checkbox__inner:hover, .el-checkbox-button.is-checked .el-checkbox-button__inner, .el-checkbox-button.is-focus .el-checkbox-button__inner, .el-button.is-plain:focus,.el-button.is-plain:hover, .el-select .el-input.is-focus .el-input__inner {
         border-color: rgb($accent-color);
     }
-    .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a, .feed-body .feed-status>a {
+    .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a, .feed-body .feed-status>a, .mdl-theme.fr-toolbar .fr-command.fr-btn.fr-active, .mdl-theme.fr-popup .fr-command.fr-btn.fr-active {
         color: rgb($accent-color);
     }
     .article-item .category-name, .carousel-articles .category-name {
@@ -644,7 +644,7 @@
         color: rgb($base);
     }
     
-    .box-header .primary a {
+    .box-header .primary a, #dramalist .table thead th > a, .style-default .table thead th > a {
         color: rgb($crust) !important;
     }
     
@@ -662,5 +662,5 @@
         color: rgb($base);
     }
     
-
+    
 }
