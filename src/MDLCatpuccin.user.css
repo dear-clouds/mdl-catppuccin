@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.0.5
+@version            1.0.6
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -551,7 +551,7 @@
     .el-textarea__inner:hover, .el-range-editor.is-active:hover {
         border-color: rgb($overlay2)
     }
-    .el-textarea__inner:focus, .el-input__inner:focus, mdl-manage-modal .watch-points .el-button.selected, .el-switch.is-checked .el-switch__core, .el-upload--picture-card:hover,.el-upload:focus, .el-upload:focus .el-upload-dragger, .el-upload-dragger:hover, .el-checkbox.is-bordered.is-checked, .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-checkbox__input.is-focus .el-checkbox__inner, .el-checkbox__inner:hover, .el-checkbox-button.is-checked .el-checkbox-button__inner, .el-checkbox-button.is-focus .el-checkbox-button__inner, .el-button.is-plain:focus,.el-button.is-plain:hover, .el-select .el-input.is-focus .el-input__inner {
+    .el-textarea__inner:focus, .el-input__inner:focus, mdl-manage-modal .watch-points .el-button.selected, .el-switch.is-checked .el-switch__core, .el-upload--picture-card:hover,.el-upload:focus, .el-upload:focus .el-upload-dragger, .el-upload-dragger:hover, .el-checkbox.is-bordered.is-checked, .el-checkbox__input.is-checked .el-checkbox__inner,.el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-checkbox__input.is-focus .el-checkbox__inner, .el-checkbox__inner:hover, .el-checkbox-button.is-checked .el-checkbox-button__inner, .el-checkbox-button.is-focus .el-checkbox-button__inner, .el-button.is-plain:focus,.el-button.is-plain:hover, .el-select .el-input.is-focus .el-input__inner, .el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
         border-color: rgb($accent-color);
     }
     .media-tag-title, .el-select-dropdown__item.selected, .el-radio__input.is-checked + .el-radio__label, #top-contributors .stats .details div p, .html_content_block a, .mdl-theme .fr-view a, .feed-body .feed-status>a, .mdl-theme.fr-toolbar .fr-command.fr-btn.fr-active, .mdl-theme.fr-popup .fr-command.fr-btn.fr-active {
@@ -575,6 +575,10 @@
     }
     .post-list .post.highlight > .post-content {
         background-color: rgb($mantle);
+    }
+    .el-radio__input.is-checked .el-radio__inner {
+        background-color: rgb($accent-color);
+        color: rgb($accent-color);
     }
     
     /* ---------------------------- Rating & Reviews ---------------------------- */
