@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.1.0
+@version            1.1.1
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -422,7 +422,7 @@
     .text-primary:hover, a:hover, a:focus, .text-primary:focus {
         color: rgba($accent-color, 0.7) !important;
     }
-    .btn-primary, .group-manage-list > .btn, , #episode_calendar .display-options > .el-button--primary, #episode_calendar .display-options > .el-button, .nav-feeds .nav-item.active, .pager > .active > a, .pager > .active > span, .pagination > .active > a, .pagination > .active > span, .el-button--primary, .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-dropdown-menu__item.privacy-item.active {
+    .btn-primary, .group-manage-list > .btn, , #episode_calendar .display-options > .el-button--primary, #episode_calendar .display-options > .el-button, .nav-feeds .nav-item.active, .pager > .active > a, .pager > .active > span, .pagination > .active > a, .pagination > .active > span, .el-button--primary, .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner, .el-dropdown-menu__item.privacy-item.active, .el-pagination.is-background .el-pager li:not(.disabled).active {
         background-color: rgb($accent-color) !important;
         color: rgb($crust) !important;
         border: 0 !important;
