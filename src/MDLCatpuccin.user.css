@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.1.1
+@version            1.1.2
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -18,7 +18,7 @@
         
     if modernized {
         
-        @import "https://rawcdn.githack.com/dear-clouds/userstyles/b480966f7de1111223e1cae35faafde4cf0400b1/mydramalist/MDLModernized.css";
+        @import "https://cdn.jsdelivr.net/gh/dear-clouds/userstyles@master/mydramalist/MDLModernized.css";
         
     }
     
