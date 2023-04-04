@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name               MDL - Catpuccin
 @namespace          https://dear-clouds.carrd.co
-@version            1.1.2
+@version            1.1.3
 @description        Soothing pastel theme for MyDramaList
 @author             Mio.
 @updateURL          https://github.com/dear-clouds/mydramalist/raw/main/src/MDLCatpuccin.user.css
@@ -438,9 +438,14 @@
         background-color: rgb($accent-color);
         color: rgb($crust);
     }
-    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a, a.m-r i:hover {
+    .btn-link, .html_content_block a, .advanced-search .filter-box-adv .filter-select.active, .advanced-search .filter-box-adv .filter-select:hover, .advanced-search .keyword-search.active, #collection-lists .box-body .list-bars a, #collection-lists .box-body .list-bars a, a.m-r i:hover, #edit-collection .list-option.selected, #edit-collection .list-option:hover {
         color: rgb($accent-color);
     }
+    #edit-collection .list-option.selected, #edit-collection .list-option:hover {
+        border-color: rgb($accent-color);
+        background-color: rgb($crust);
+        color: rgb($accent-color);
+      }
     .btn.white, .btn.primary {
         border: 0;
     }
